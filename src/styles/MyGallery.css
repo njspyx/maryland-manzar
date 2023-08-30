@@ -1,0 +1,13 @@
+
+.custom-overlay__caption {
+  background-color: #c59830;
+  max-height: 240px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 2px;
+  font-size: 90%;
+  opacity: 0.85;
+}

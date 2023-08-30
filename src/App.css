@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-section-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.about-text-wrapper {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  width:70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-slogan-container {
+  margin-top: 20px;
+  display: flex;
+  color: darkgray;
+  font-size: large;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 20px;
 }
+
+.about-slogan-container .about-slogan-large {
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Caveat', cursive;
+
+}
+
+.about-slogan-container .about-slogan-small {
+  font-size: 2.25rem;
+  font-family:'Caveat', cursive;
+}
+
+
+.about-image-container {
+  width: 60%;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.footer-scene-container  {
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  overflow: hidden;
+  position: absolute;
+  transform: translateY(-50%);
+  bottom: 200px;
+
+}
+
+.footer-scene {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+  margin-bottom: -30%;
+}
+
+

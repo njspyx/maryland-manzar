@@ -1,0 +1,68 @@
+.btn--red-gold {
+  background-image: linear-gradient(to right, #a10000 0%, #c59830 51%, #a10000 100%);
+  --primary-color: #fff;
+  --secondary-color: #242424;
+}
+
+.btn--red {
+  --primary-color: #a10000;
+  --secondary-color: #ffffff;
+}
+
+.btn--gold {
+  --primary-color: #c59830;
+  --secondary-color: #242424;
+}
+
+.btn--white {
+  --primary-color: #fff;
+  --secondary-color: #242424;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--filled {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn--outline {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--gradient-animated {
+  background-size: 200% auto;
+  color: var(--primary-color);
+  padding: 13px 27px;
+}
+
+.btn--outline:hover {
+  background: var(--primary-color);
+  color:var(--secondary-color);
+  transition: all 0.3s ease-out;
+}
+
+.btn--gradient-animated:hover {
+  background-position: right center;
+  transition: 0.5s;
+}
