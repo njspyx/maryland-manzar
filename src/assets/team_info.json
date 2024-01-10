@@ -1,0 +1,45 @@
+{
+    "teams": {
+        "Eboard": [
+            {"first_name": "Manzar", "last_name": "", "position": "Captain", "email": "marylandmanzar@gmail.com", "phone": "", "image_url": ""}
+        ],
+        "Secretary": [
+            {"first_name": "Mihika", "last_name": "Panicker", "position": "Captain", "email": "panicker.mihika@gmail.com", "phone": "240-474-1221", "image_url": ""},
+            {"first_name": "Vedant", "last_name": "Agrawal", "position": "Secretary", "email": "vedanta@gmail.com", "phone": "240-870-0576", "image_url": ""}
+        ],
+        "Finance Team": [
+            {"first_name": "Karthick", "last_name": "Sankar", "position": "Finance Chair", "email": "karthickg.sankar@gmail.com", "phone": "240-636-4541", "image_url": ""},
+            {"first_name": "Akshita", "last_name": "Alousyes", "position": "Finance Advisor", "email": "akshitalousyes@gmail.com", "phone": "410-868-9459", "image_url": ""}
+        ],
+        "Marketing Team": [
+            {"first_name": "Eugene", "last_name": "Song", "position": "Marketing Co-Chair", "email": "eugene.song11@gmail.com", "phone": "301-980-3522", "image_url": ""},
+            {"first_name": "Teja", "last_name": "Bokkisam", "position": "Marketing Co-Chair", "email": "venkatasaitejaswi@gmail.com", "phone": "7327838925", "image_url": ""}
+        ],
+        "Management Team": [
+            {"first_name": "Aastha", "last_name": "Patel", "position": "Manager", "email": "aasthapatel181@gmail.com", "phone": "301-542-5580", "image_url": ""},
+            {"first_name": "Rohan", "last_name": "Ondkar", "position": "Manager", "email": "rohanondkar@gmail.com", "phone": "267-750-8902", "image_url": ""},
+            {"first_name": "Adharsh", "last_name": "Maheswaran", "position": "Manager", "email": "adharsh.maheswaran@gmail.com", "phone": "301-974-4889", "image_url": ""},
+            {"first_name": "Kavi", "last_name": "Patel", "position": "Manager", "email": "kavip100@outlook.com", "phone": "240-597-6411", "image_url": ""},
+            {"first_name": "Shashank", "last_name": "Arava", "position": "Manager", "email": "aravashashank@gmail.com", "phone": "920-851-6553", "image_url": ""}
+        ],
+        "Choreo Team": [
+            {"first_name": "Shaunak", "last_name": "", "position": "Choreographer", "email": "me.shaunak.roy@gmail.com", "phone": "510-902-8867", "image_url": ""},
+            {"first_name": "Tharindi", "last_name": "", "position": "Choreographer", "email": "tharindi2004@gmail.com", "phone": "240-328-2636", "image_url": ""},
+            {"first_name": "Julianne", "last_name": "Grant", "position": "Choreographer", "email": "jegnett@gmail.com", "phone": "240-338-6357", "image_url": ""},
+            {"first_name": "Simmi", "last_name": "Nirula", "position": "Choreographer", "email": "simminirula@gmail.com", "phone": "301-641-0166", "image_url": ""}
+        ],
+        "Tech Team": [
+            {"first_name": "Neel", "last_name": "Jay", "position": "Website Designer", "email": "neeljaycs@gmail.com", "phone": "312-838-1693", "image_url": ""},
+            {"first_name": "Sashwath", "last_name": "Prakash", "position": "Photographer + Videographer", "email": "sashupraks@gmail.com", "phone": "443-561-6598", "image_url": ""},
+            {"first_name": "Zuha", "last_name": "Islam", "position": "Media Editor", "email": "zzzislam24@yahoo.com", "phone": "240-615-7223", "image_url": ""}
+        ],
+        "Production Team": [
+            {"first_name": "Jenuvea", "last_name": "Smart", "position": "Costume/Merch Designer", "email": "Jenuvea@gmail.com", "phone": "631-416-2737", "image_url": ""},
+            {"first_name": "Naveen", "last_name": "Harish", "position": "Production Chair", "email": "naveenharish2002@gmail.com", "phone": "301-401-0523", "image_url": ""}
+        ],
+        "Events Team": [
+            {"first_name": "Disha", "last_name": "Sanwal", "position": "Events Co-Chair", "email": "disha.sanwal@yahoo.com", "phone": "443-570-8254", "image_url": ""},
+            {"first_name": "Mira", "last_name": "Palakodety", "position": "Events Co-Chair", "email": "mirapal49@gmail.com", "phone": "443-570-8254", "image_url": ""}
+        ]
+    }
+}

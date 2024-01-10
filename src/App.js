@@ -20,9 +20,11 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
+        {/*
         <div className="footer-scene-container">
           <SceneSVG className="footer-scene" />
         </div>
+          */}
         <Footer />
       </Router>
     </div>

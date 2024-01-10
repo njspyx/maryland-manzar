@@ -28,14 +28,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
       rel="stylesheet"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat&family=Comfortaa&display=swap"
       rel="stylesheet"
     />
-    <title>React App</title>
+    <title>Maryland Manzar</title>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const links = document.querySelectorAll('a[href^="#"]');
+        links.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            let target = document.querySelector(this.getAttribute("href"));
+            if (target) {
+              target.scrollIntoView({ behavior: "smooth" });
+            }
+          });
+        });
+      });
+    </script>
   </head>
   <body style="background-color: antiquewhite">
     <noscript>You need to enable JavaScript to run this app.</noscript>

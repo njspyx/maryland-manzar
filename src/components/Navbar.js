@@ -1,13 +1,17 @@
-import React, { useDebugValue, useState, useEffect, Component } from "react";
-import { Link } from "react-router-dom";
+import React, { useDebugValue, useState, Component } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Button from "./Button.js";
 import styled, { css } from "styled-components";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [button, setButton] = useState(true);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const handleMenuClick = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
@@ -22,8 +26,20 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
-  }, []);
+    if (location.hash) {
+      let element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top if no hash
+    }
+  }, [location]); // Re-run the effect if the location changes
 
+  const handleAboutClick = () => {
+    closeMenu();
+    navigate("/#about");
+  };
   window.addEventListener("resize", showButton);
 
   return (
@@ -46,9 +62,9 @@ function Navbar() {
             </Link>
           </li>
           <li className="navbar-item">
-            <Link to="/about" className="navbar-links" onClick={closeMenu}>
+            <a className="navbar-links" onClick={handleAboutClick}>
               About
-            </Link>
+            </a>
           </li>
           <li className="navbar-item">
             <Link to="/team" className="navbar-links" onClick={closeMenu}>
@@ -58,11 +74,6 @@ function Navbar() {
           <li className="navbar-item">
             <Link to="/events" className="navbar-links" onClick={closeMenu}>
               Events
-            </Link>
-          </li>
-          <li className="navbar-item">
-            <Link to="/gallery" className="navbar-links" onClick={closeMenu}>
-              Gallery
             </Link>
           </li>
           <li className="navbar-item">

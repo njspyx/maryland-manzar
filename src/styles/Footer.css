@@ -3,6 +3,7 @@
   flex-direction: column;
 }
 
+
 .footer-container {
   background-color: #242424;
 
@@ -13,22 +14,20 @@
   align-items: center;
 }
 
-
 .footer-socials {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
-
   margin-bottom: 24px;
   padding: 10px;
   color: #fff;
 }
 
-.footer-social-icon {
+.footer-social-link {
   display: flex;
-  width: 50px;
+  width: 60px;
   height: 20px;
   font-size: 35px;
   color: #ffffff;

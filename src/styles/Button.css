@@ -1,5 +1,10 @@
 .btn--red-gold {
-  background-image: linear-gradient(to right, #a10000 0%, #c59830 51%, #a10000 100%);
+  background-image: linear-gradient(
+    to right,
+    #a10000 0%,
+    #c59830 51%,
+    #a10000 100%
+  );
   --primary-color: #fff;
   --secondary-color: #242424;
 }
@@ -58,7 +63,7 @@
 
 .btn--outline:hover {
   background: var(--primary-color);
-  color:var(--secondary-color);
+  color: var(--secondary-color);
   transition: all 0.3s ease-out;
 }
 
