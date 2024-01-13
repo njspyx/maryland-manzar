@@ -6,6 +6,7 @@ import Button from "./Button.js";
 import styled, { css } from "styled-components";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import logoImage from "../assets/logo.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,7 +47,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={handleMenuClick}>
-          <img src="logo.png" alt="Logo" />
+          <img src={logoImage} alt="Logo" />
         </Link>
         <div className="menu-icon" onClick={handleMenuClick}>
           {menuOpen ? (
