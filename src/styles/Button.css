@@ -1,16 +1,16 @@
 .btn--red-gold {
   background-image: linear-gradient(
     to right,
-    #a10000 0%,
+    #c9022d 0%,
     #c59830 51%,
-    #a10000 100%
+    #c9022d 100%
   );
   --primary-color: #fff;
   --secondary-color: #242424;
 }
 
 .btn--red {
-  --primary-color: #a10000;
+  --primary-color: #c9022d;
   --secondary-color: #ffffff;
 }
 
@@ -22,6 +22,11 @@
 .btn--white {
   --primary-color: #fff;
   --secondary-color: #242424;
+}
+
+.btn--black {
+  --primary-color: #242424;
+  --secondary-color: #fff;
 }
 
 .btn {
@@ -36,13 +41,21 @@
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  transition: all 0.4s ease-out;
 }
 
 .btn--outline {
   border: 1px solid var(--primary-color);
   background-color: transparent;
   color: var(--primary-color);
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.btn--outline-simple {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  transition: all 0.4s ease-out;
 }
 
 .btn--medium {
@@ -64,7 +77,17 @@
 .btn--outline:hover {
   background: var(--primary-color);
   color: var(--secondary-color);
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.btn--outline-simple:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: all 0.4s ease-out;
+}
+
+.btn--filled:hover {
+  filter: brightness(70%);
+  transition: all 0.4s ease-out;
 }
 
 .btn--gradient-animated:hover {

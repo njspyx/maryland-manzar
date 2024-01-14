@@ -11,7 +11,7 @@ import teamData from "../assets/team_info.json";
 function Team() {
   return (
     <>
-      <Header icon={<FaUser />} text={"Meet the Team"} />
+      <Header text={"Meet the Team!"} />
       <div className="team-page">
         {Object.entries(teamData.teams).map(([teamName, members]) => (
           <div key={teamName}>

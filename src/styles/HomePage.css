@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
+  padding: 50px 20px 15px 20px;
   flex-wrap: wrap;
 }
 
@@ -33,6 +33,24 @@
   font-size: 16px;
 }
 
+.about-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between buttons */
+  padding: 15px 20px 50px 20px; /* Optional, for better spacing around the container */
+}
+
+/* Responsive button styling */
+.btn {
+  flex-grow: 1; /* Allows the button to grow */
+  flex-shrink: 1; /* Allows the button to shrink */
+  flex-basis: 0; /* Sets the initial length of the button to 0, so they all start the same */
+  max-width: 400px; /* Optional, to set a maximum width */
+  height: auto;
+  position: relative;
+}
+
 @media (max-width: 768px) {
   .about-section-container {
     flex-direction: column;
@@ -45,6 +63,10 @@
 
   .about-text {
     text-align: center;
+  }
+
+  .btn {
+    max-width: 100%; /* Makes the button take full width on smaller screens */
   }
 }
 

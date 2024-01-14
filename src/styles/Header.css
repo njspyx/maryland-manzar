@@ -7,14 +7,14 @@
 }
 
 .header-container h1 {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   margin: 0px 60px;
-  color: #a10000;
+  color: #c9022d;
   font-size: 2.25rem;
   justify-content: center;
 }
 
 .header-container .icon-wrapper {
-  color: #a10000;
+  color: #c9022d;
   font-size: 25px;
 }

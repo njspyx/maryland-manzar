@@ -20,8 +20,8 @@ function Hero() {
           className="no-border-btn"
           route={"join"}
           buttonSize={"btn--large"}
-          buttonStyle={"btn--gradient-animated"}
-          buttonColor={"btn--red-gold"}
+          buttonStyle={"btn--filled"}
+          buttonColor={"btn--red"}
         >
           Join Now!
         </Button>
