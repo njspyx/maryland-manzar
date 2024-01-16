@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "./Button";
 import "../styles/Hero.css";
 
 function Hero() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const hero = document.querySelector(".hero-container");
+      const scrollY = window.pageYOffset;
+
+      hero.style.backgroundPositionY = `${scrollY * 0.1}px`; // 0.5 controls the speed
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="hero-container">
       <h1>Maryland Manzar</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>competitive bollywood fusion dance team @ umd</p>
       <div className="hero-btns">
         <Button
           className="btn"
-          route={"about"}
+          route={"#about"}
           buttonSize={"btn--large"}
           buttonStyle={"btn--outline"}
         >

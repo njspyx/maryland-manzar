@@ -17,6 +17,8 @@
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.55);
   object-fit: contain;
+  position: relative;
+  background-attachment: fixed; /* Add this line */
 }
 
 .hero-container > h1 {
@@ -50,6 +52,11 @@
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
+    text-align: center;
+  }
+
+  .hero-container > p {
+    text-align: center;
   }
 }
 
@@ -57,10 +64,12 @@
   .hero-container > h1 {
     font-size: 50px;
     margin-top: -100px;
+    text-align: center;
   }
 
   .hero-container > p {
-    font-size: 30px;
+    font-size: 26px;
+    text-align: center;
   }
 
   .btn-mobile {

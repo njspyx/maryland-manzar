@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ProfileCard from "../components/ProfileCard";
 import { FaUser } from "react-icons/fa";
-import teamData from "../assets/team_info.json";
 import seniorImg from "../assets/team-senior.jpg";
 import juniorImg from "../assets/team-junior.jpg";
 import sophmoreImg from "../assets/team-sophmore.jpg";

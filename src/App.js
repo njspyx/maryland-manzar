@@ -7,6 +7,7 @@ import Events from "./pages/Events";
 import Footer from "./components/Footer";
 import Team from "./pages/Team";
 import Gallery from "./pages/Gallery";
+import Join from "./pages/Join";
 import { ReactComponent as SceneSVG } from "./assets/scene.svg";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/team" element={<Team />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/join" element={<Join />} />
         </Routes>
         {/*
         <div className="footer-scene-container">
