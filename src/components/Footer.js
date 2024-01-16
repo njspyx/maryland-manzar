@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaTiktok,
   FaFacebookF,
+  FaYoutube,
 } from "react-icons/fa";
 
 function Footer() {
@@ -34,10 +35,10 @@ function Footer() {
             <FaFacebookF className="footer-social-icon" />
           </a>
           <a
-            href="mailto:marylandmanzar@gmail.com"
+            href="https://www.youtube.com/@MarylandManzar"
             className="footer-social-link"
           >
-            <FaRegEnvelope className="footer-social-icon" />
+            <FaYoutube className="footer-social-icon" />
           </a>
         </div>
         <div class="footer-links">
@@ -45,7 +46,7 @@ function Footer() {
             <a href="/" className="footer-link-items">
               Home
             </a>
-            <a href="/about" className="footer-link-items">
+            <a href="/#about" className="footer-link-items">
               About
             </a>
             <a href="/team" className="footer-link-items">
