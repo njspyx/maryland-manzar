@@ -10,6 +10,11 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 
+/*
+Footer socials: instagram, tiktok, facebook, youtube
+Footer links: home, about, team, email
+*/
+
 function Footer() {
   return (
     <div className="footer">

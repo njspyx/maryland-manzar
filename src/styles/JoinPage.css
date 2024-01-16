@@ -2,7 +2,7 @@
   text-align: center;
   padding: 20px;
   width: 75%;
-  margin: 0 auto; /* Centers the container */
+  margin: 0 auto;
 }
 
 .join-info-container p {
@@ -19,11 +19,12 @@
   font-style: italic;
 }
 
-/* Styles for email links */
 a.email-link {
-  text-decoration: none; /* Removes the underline from the link */
+  text-decoration: none;
   font-weight: bold;
 }
+
+/* Tabbed info box using CSS */
 
 .tab-container {
   margin: 10px auto;
@@ -45,13 +46,13 @@ a.email-link {
   cursor: pointer;
   transition: border-color 0.3s ease, color 0.3s ease;
   font-size: 1em;
-  outline: none; /* Remove default focus outline */
+  outline: none;
 }
 
 .tab-title:focus,
 .tab-title.active {
-  border-color: black; /* Black border on focus and when active */
-  color: black; /* Optional: Change text color on focus/active */
+  border-color: black; /* Black border when tab is selected */
+  color: black;
 }
 
 .tab-content {
@@ -59,9 +60,9 @@ a.email-link {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  font-size: 1.1em; /* Increase font size */
+  font-size: 1.1em;
 }
 
 .tab-content li {
-  margin-bottom: 5px; /* Increase space between list items */
+  margin-bottom: 5px;
 }

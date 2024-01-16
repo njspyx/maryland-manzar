@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Button.css";
 
+// Button styles
 const STYLES = [
   "btn--filled",
   "btn--outline",
@@ -35,7 +36,7 @@ function Button({
     ? buttonColor
     : COLORS[0];
 
-  // Button element
+  // Create button with custom class styles
   const buttonElement = (
     <button
       className={`btn ${checkButtonSize} ${checkButtonColor} ${checkButtonStyle}`}

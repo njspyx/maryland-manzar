@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/ProfileCard.css";
 
+// Currently unused Profile compoenet for Meet the Team page
+
 const ProfileCard = ({ imgFilePath, name, position, contact }) => {
   return (
     <div className="profile-card-container">

@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Button from "./Button.js";
-import styled, { css } from "styled-components";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import logoImage from "../assets/logo.png";
@@ -14,6 +13,7 @@ function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
 
+  // Toggle menu for mobile
   const handleMenuClick = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
   const showButton = () => {
@@ -25,6 +25,7 @@ function Navbar() {
     }
   };
 
+  // Scroll to top when navigating to a new page, or scroll to a specific element if a hash is provided
   useEffect(() => {
     showButton();
     if (location.hash) {

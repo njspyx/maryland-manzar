@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/EventRow.css";
 import Button from "./Button";
 
+// To be used for listing past events on Events page
 function EventRow({ name, link, desc, thumbnail, date }) {
   return (
     <div className="event-row">

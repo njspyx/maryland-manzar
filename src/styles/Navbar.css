@@ -78,6 +78,8 @@ img {
   display: none;
 }
 
+/* Switching to hamburger menu for mobile */
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;

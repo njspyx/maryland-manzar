@@ -3,12 +3,13 @@ import Button from "./Button";
 import "../styles/Hero.css";
 
 function Hero() {
+  // Parallax effect implementation
   useEffect(() => {
     const handleScroll = () => {
       const hero = document.querySelector(".hero-container");
       const scrollY = window.pageYOffset;
 
-      hero.style.backgroundPositionY = `${scrollY * 0.1}px`; // 0.5 controls the speed
+      hero.style.backgroundPositionY = `${scrollY * 0.1}px`; // Controll speed of parallax
     };
 
     window.addEventListener("scroll", handleScroll);

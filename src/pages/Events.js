@@ -1,13 +1,9 @@
 import React from "react";
 import "../App.css";
 import "../styles/EventsPage.css";
-import Hero from "../components/Hero";
-import Footer from "../components/Footer";
-import Cards from "../components/Cards";
 import Header from "../components/Header";
 import EventRow from "../components/EventRow";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import eventData from "../assets/past_events.json"; // Correct path to your JSON file
+import eventData from "../assets/past_events.json";
 
 function Events() {
   return (
@@ -31,11 +27,10 @@ function Events() {
               thumbnail={event.thumbnail}
               className="event-row"
             />
-            {index < eventData.length - 1 && <hr />} {/* Horizontal line */}
+            {index < eventData.length - 1 && <hr />}
           </React.Fragment>
         ))}
       </div>
-      {/* Footer or other components */}
     </>
   );
 }
