@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/EventRow.css";
+import Button from "./Button";
 
 function EventRow({ name, link, desc, thumbnail, date }) {
   return (
@@ -12,14 +13,15 @@ function EventRow({ name, link, desc, thumbnail, date }) {
         <p className="event-date">{date}</p>
         <p>{desc}</p>
       </div>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Button
         className="event-link"
+        externalUrl={link}
+        buttonSize={"btn--small"}
+        buttonStyle={"btn--outline-simple"}
+        buttonColor={"btn--black"}
       >
         View Photos
-      </a>
+      </Button>
     </div>
   );
 }

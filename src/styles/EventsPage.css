@@ -1,0 +1,17 @@
+.upcoming-events-container {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 150px;
+}
+
+.upcoming-events-container a {
+  text-decoration: none;
+}
+
+.event-row {
+  padding: 20px 20px 0px;
+}

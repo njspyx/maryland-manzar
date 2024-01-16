@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "../styles/EventsPage.css";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Cards from "../components/Cards";
@@ -11,7 +12,14 @@ import eventData from "../assets/past_events.json"; // Correct path to your JSON
 function Events() {
   return (
     <>
-      <Header icon={<FaMapMarkerAlt />} text={"Follow Our Journey"} />
+      <Header text={"Upcoming Events"} />
+      <div className="upcoming-events-container">
+        <h2>Coming Soon</h2>
+        <a href="https://www.instagram.com/marylandmanzar/">
+          Follow us on Instagram in the meantime!
+        </a>
+      </div>
+      <Header text={"Past Events"} />
       <div>
         {eventData.map((event, index) => (
           <React.Fragment key={index}>
@@ -21,6 +29,7 @@ function Events() {
               link={event.link}
               desc={event.desc}
               thumbnail={event.thumbnail}
+              className="event-row"
             />
             {index < eventData.length - 1 && <hr />} {/* Horizontal line */}
           </React.Fragment>

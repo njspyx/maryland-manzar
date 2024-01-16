@@ -1,20 +1,17 @@
 import React from "react";
 import "../App.css";
 import Hero from "../components/Hero";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Button from "../components/Button";
 import "../styles/HomePage.css";
 import aboutImage from "../assets/RangBarse-867.jpg";
+import aboutImage2 from "../assets/Marzar-M-pic.png";
 
 function Home() {
   return (
     <>
       <Hero />
-      <div id="about" className="about-section-container">
-        <div className="about-image">
-          <img src={aboutImage} alt="About" />
-        </div>
+      <div id="about" className="about-section-above">
         <div className="about-text">
           <Header text={"About Maryland Manzar"} />
           <p>
@@ -30,35 +27,49 @@ function Home() {
             <b>Get ready to experience the Manzar magic!</b>
           </p>
         </div>
+        <div className="about-image">
+          <img src={aboutImage} alt="About" />
+        </div>
       </div>
-      <div className="about-buttons-container">
-        <Button
-          className="btn"
-          externalUrl={"https://www.gofundme.com/f/maryland-manzar-fundraising"}
-          buttonSize={"btn--large"}
-          buttonStyle={"btn--outline-simple"}
-          buttonColor={"btn--black"}
-        >
-          Donate to help us compete
-        </Button>
-        <Button
-          className="btn"
-          externalUrl={"https://www.gofundme.com/f/maryland-manzar-fundraising"}
-          buttonSize={"btn--large"}
-          buttonStyle={"btn--outline-simple"}
-          buttonColor={"btn--black"}
-        >
-          Check out our past events
-        </Button>
-        <Button
-          className="btn"
-          externalUrl={"https://www.gofundme.com/f/maryland-manzar-fundraising"}
-          buttonSize={"btn--large"}
-          buttonStyle={"btn--outline-simple"}
-          buttonColor={"btn--black"}
-        >
-          Featured in Stories Beneath the Shell
-        </Button>
+      <div id="about" className="about-section-below">
+        <div className="about-image-below">
+          <img src={aboutImage2} alt="About" />
+        </div>
+        <div className="about-buttons-container">
+          <Button
+            className="about-btn"
+            externalUrl={
+              "https://www.gofundme.com/f/maryland-manzar-fundraising"
+            }
+            buttonSize={"btn--large"}
+            buttonStyle={"btn--outline-simple"}
+            buttonColor={"btn--black"}
+          >
+            Donate to help us compete
+          </Button>
+          <Button
+            className="about-btn"
+            externalUrl={
+              "https://www.gofundme.com/f/maryland-manzar-fundraising"
+            }
+            buttonSize={"btn--large"}
+            buttonStyle={"btn--outline-simple"}
+            buttonColor={"btn--black"}
+          >
+            Check out our past events
+          </Button>
+          <Button
+            className="about-btn"
+            externalUrl={
+              "https://www.gofundme.com/f/maryland-manzar-fundraising"
+            }
+            buttonSize={"btn--large"}
+            buttonStyle={"btn--outline-simple"}
+            buttonColor={"btn--black"}
+          >
+            Featured in Stories Beneath the Shell
+          </Button>
+        </div>{" "}
       </div>
     </>
   );

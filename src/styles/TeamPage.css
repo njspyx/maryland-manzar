@@ -1,33 +1,73 @@
-.team-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin: 20px;
-}
-
-.team-subheader {
-  text-align: center;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
-.team-page > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.team-page > div > div {
+/* Team Page Container */
+.team-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 20px; /* Adjust as needed */
+  padding: 20px 30px;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .team-page > div > div {
-    justify-content: center;
-  }
+/* Individual sections for images and names */
+.team-image,
+.team-names {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px; /* Adjust as needed */
+  max-width: 1000px; /* Example max-width; adjust as needed */
+  margin: 0 auto; /* Centers the content */
+}
+
+.team-image img {
+  width: 100%; /* Make image responsive */
+  height: auto;
+  object-fit: cover;
+  justify-self: center; /* Center horizontally in the grid cell */
+  align-self: center; /* Center vertically in the grid cell */
+}
+
+.names {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.eboard-container {
+  text-align: center; /* Center the content */
+  padding: 20px;
+  max-width: 1000px; /* Example max-width; adjust as needed */
+  margin: 0 auto; /* Centers the container */
+}
+
+.eboard-container img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px; /* Space between image and table */
+}
+
+/* Eboard Teams */
+.eboard-teams {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns: one for team name, one for members */
+  gap: 10px; /* Adjust gap between rows and columns as needed */
+  max-width: 600px; /* Adjust max width as needed */
+  margin: 0 auto; /* Center the grid */
+  margin-bottom: 20px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between; /* Space between team name and members */
+  padding: 5px 10px; /* Padding for each team */
+  border-bottom: 1px solid #ccc; /* Line between rows */
+}
+
+.team h3 {
+  margin: 0; /* Remove default margin from headings */
+  font-weight: bold; /* Optional: Bold font for team names */
+}
+
+.team p {
+  margin: 0; /* Remove default margin from paragraphs */
+  text-align: right;
 }

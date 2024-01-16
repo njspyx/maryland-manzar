@@ -7,7 +7,7 @@
 }
 
 .event-thumbnail img {
-  width: 250px; /* Adjust as needed */
+  width: 400px; /* Adjust as needed */
   height: auto;
   margin-right: 20px; /* Adjust as needed */
 }
@@ -17,11 +17,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically inside event-info */
+  margin-right: 20px;
 }
 
 .event-info h3 {
   margin: 0 0 10px 0; /* Adjust as needed */
-  font-size: 1.5em; /* Adjust as needed */
+  font-size: 2em; /* Adjust as needed */
 }
 
 .event-info p {
@@ -38,4 +39,14 @@
   font-size: 1em; /* Adjust the font size as needed */
   color: #666; /* Adjust the color as needed */
   margin: 5px 0; /* Adjust margin as needed */
+}
+
+@media (max-width: 768px) {
+  .event-thumbnail img {
+    width: 250px; /* Adjust as needed */
+  }
+
+  .event-info h3 {
+    font-size: 1.5em; /* Adjust as needed */
+  }
 }
