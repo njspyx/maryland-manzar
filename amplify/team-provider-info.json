@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-marylandmanzar-dev-215602-authRole",
+      "UnauthRoleArn": "arn:aws:iam::271826094887:role/amplify-marylandmanzar-dev-215602-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::271826094887:role/amplify-marylandmanzar-dev-215602-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-marylandmanzar-dev-215602-deployment",
+      "UnauthRoleName": "amplify-marylandmanzar-dev-215602-unauthRole",
+      "StackName": "amplify-marylandmanzar-dev-215602",
+      "StackId": "arn:aws:cloudformation:us-east-1:271826094887:stack/amplify-marylandmanzar-dev-215602/c95c8fe0-b41a-11ee-b0d0-0ebb8c3ef60f",
+      "AmplifyAppId": "d1shpl7r61k0tw"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1shpl7r61k0tw",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
