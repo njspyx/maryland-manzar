@@ -24,10 +24,9 @@ function Join() {
         <p>
           Select a choreography to learn: bollywood or hip-hip. We have provided
           the tutorial and full-speed videos for both below. After familiarizing
-          youself with the choreography, use this form to request an office hour
-          session to meet with someone on our choreo team. Any questions or
-          concerns about the audition piece can be addressed during this
-          session.
+          youself with the choreography, you can email/dm us to schedule office
+          hours with our choreo team if needed. Any questions or concerns about
+          the audition piece can be addressed during this session.
         </p>
         <p>
           After you are confident in your piece, send audition videos to
