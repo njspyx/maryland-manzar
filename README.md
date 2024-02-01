@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Maryland Manzar
+
+This website was made for Maryland Manzar, a competitive co-ed bollywood fusion dance team based at the University of Maryland.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
