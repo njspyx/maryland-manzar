@@ -74,7 +74,7 @@ function Join() {
           {activeTab === "bolly" && (
             <div>
               <li>
-                <a href="https://drive.google.com/file/d/1oos8DN0gQCIJ2Pc_pVIi93z1CAYvSaR2/view?usp=sharing">
+                <a href="https://drive.google.com/drive/folders/1k2MkM9KFepftxHOWDbHvfdJMwkQvp-eh">
                   Bollywood Dance Tutorial
                 </a>
               </li>
@@ -88,7 +88,7 @@ function Join() {
           {activeTab === "hip-hop" && (
             <div>
               <li>
-                <a href="https://drive.google.com/file/d/11RtRajfkn2jfCJ2ONKdFlBYB6LItvJqJ/view?usp=sharing">
+                <a href="https://drive.google.com/drive/folders/18FYDflkBxBR9nvzqtxHGynuAW84ceOK0">
                   Hip-Hop Dance Tutorial
                 </a>
               </li>
